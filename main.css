@@ -1,0 +1,88 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #202632;
+    font-family: 'Manrope', sans-serif;
+}
+
+.advCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 444px;
+    /* max-width: 444px; */
+    text-align: center;
+    padding: 50px;
+    /* margin: -3px; */
+    height: fit-content;
+    justify-content: space-between;
+    background-color: hsl(218deg 20% 24%);
+    color: hsl(201deg 17% 70%);
+    position: relative;
+    font-weight: 800;
+    border-radius: 15px;
+    overflow-x: clip;
+}
+
+.out {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(150, 100%, 66%);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.out:hover {
+    box-shadow: 0px 0px 13px 8px hsl(150deg 100% 66% / 60%);
+}
+
+.id {
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.advTxt {
+    font-size: 28px;
+    padding: 20px;
+}
+
+@media only screen and (max-width : 500px) {
+    .advCard {
+        width: 240px;
+    }
+
+    .line {
+        overflow-x: hidden;
+    }
+}
+
+.con {
+    position: relative;
+}
